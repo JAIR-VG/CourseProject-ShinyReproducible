@@ -34,11 +34,11 @@ For the development of the shiny application the following elements were used:
 - And as reactive output the ggplot
 
 
-## Shiny App Organization
+## Shiny App Organization and How to Use
 
 The Shiny app is divided into two parts:
 
-- On the left side, two select boxes show the variables that describe the Iris data set. Two select boxes are used for the user to choose which variables will be displayed on the X-axis and the Y-axis.
+- On the left side, two select boxes show the variables that describe the Iris data set. Two select boxes allow the user to choose which variables will be displayed on the X-axis and the Y-axis.
 
 - On the right side of the screen, a graph appears in which the values of the two variables selected by the user are drawn using points. Likewise, the points are colored according to one of the flowers to which these values belong.
 
@@ -47,6 +47,7 @@ The Shiny app is divided into two parts:
 ## Links of the assignment
 
 - All the files generated of the two parts of the assignment can be found at <https://github.com/JAIR-VG/CourseProject-ShinyReproducible>.
+- The Shiny Application is running on <https://jair-vg.shinyapps.io/myProjectDataPro/>.
 - The server.R and ui.R code are inside a folder called **myProjectDataPro** on the same Github site at the following link <https://github.com/JAIR-VG/CourseProject-ShinyReproducible/tree/main/myProjectDataPro>.
-- The Shiny Application is running on 
+
 
