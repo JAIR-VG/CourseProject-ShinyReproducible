@@ -43,6 +43,16 @@ The Shiny app is divided into two parts:
 - On the right side of the screen, a graph appears in which the values of the two variables selected by the user are drawn using points. Likewise, the points are colored according to one of the flowers to which these values belong.
 
 
+## What shows the Shiny App
+
+The Shiny allows to plot the independent variables selected by the user. Here an example
+
+
+```{r fig.asp = 0.8, fig.width = 4}
+library(ggplot2)
+p<-ggplot(iris, aes(x=Sepal.Length, y= Sepal.Width, colour = Species))+geom_point()
+p
+```
 
 ## Links of the assignment
 
