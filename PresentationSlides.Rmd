@@ -1,0 +1,56 @@
+---
+title: "Couser Project: Reproducible Pitch Presentation-Iris Dataset"
+author: "Vicente Garcia"
+date: "`r Sys.Date()`"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+This is a reproducible pitch presentation about the shiny application developed for the Iris dataset. The presentation is the second part of the assignment for the final course project. 
+
+The presentation is a documentation of the shiny application developed following the next instructions:
+
+
+- Write a shiny application with associated supporting documentation
+- Deploy the application on Rstudio's shiny server
+- Share the application link by pasting it into the provided text box
+- Share your server.R and ui.R code on github
+
+
+
+## The Shiny Application
+
+The goal is to allow the user to choose, through the select box, the variables that will be drawn in a two-dimensional space. The variables correspond to the four attributes that describe an Iris flower: Sepal.Length, Sepal.Width, Petal.Length, Petal.Width.
+
+For the development of the shiny application the following elements were used:
+
+- The Iris dataset
+- As a Shiny Widget a Select Box
+- And as reactive output the ggplot
+
+
+## Shiny App Organization
+
+The Shiny app is divided into two parts:
+
+- On the left side, two select boxes show the variables that describe the Iris data set. Two select boxes are used for the user to choose which variables will be displayed on the X-axis and the Y-axis.
+
+- On the right side of the screen, a graph appears in which the values of the two variables selected by the user are drawn using points. Likewise, the points are colored according to one of the flowers to which these values belong.
+
+
+
+## Links of the assignment
+
+This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+- Bullet 1
+- Bullet 2
+- Bullet 3
+
