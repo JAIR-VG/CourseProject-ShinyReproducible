@@ -10,3 +10,7 @@ The links where are the several elements of the course project:
 
 [This is the link for the server.R and ui.R code on github folder](https://github.com/JAIR-VG/CourseProject-ShinyReproducible/tree/main/myProjectDataPro)
 
+[This is the link for the presentation](http://rpubs.com/vgarciaj/shinypitch2022)
+
+[This is the link where the shiny application is running](https://jair-vg.shinyapps.io/myProjectDataPro/)
+
