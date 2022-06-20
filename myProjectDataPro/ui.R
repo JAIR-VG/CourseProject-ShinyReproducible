@@ -13,7 +13,7 @@ choices <- c("Sepal.Length", "Sepal.Width", "Petal.Length", "Petal.Width")
 shinyUI(fluidPage(
 
     # Application title
-    titlePanel("Course Project"),
+    titlePanel("Course Project: Shiny Application on Iris Dataset"),
 
     # Sidebar with a slider input for selecting variables
     sidebarLayout(
