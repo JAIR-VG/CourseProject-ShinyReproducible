@@ -46,11 +46,7 @@ The Shiny app is divided into two parts:
 
 ## Links of the assignment
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
+- All the files generated of the two parts of the assignment can be found at <https://github.com/JAIR-VG/CourseProject-ShinyReproducible>.
+- The server.R and ui.R code are inside a folder called **myProjectDataPro** on the same Github site at the following link <https://github.com/JAIR-VG/CourseProject-ShinyReproducible/tree/main/myProjectDataPro>.
+- The Shiny Application is running on 
 
