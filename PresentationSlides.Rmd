@@ -1,5 +1,5 @@
 ---
-title: "Couser Project: Reproducible Pitch Presentation-Iris Dataset"
+title: "Course Project: Reproducible Pitch Presentation-Iris Dataset"
 author: "Vicente Garcia"
 date: "`r Sys.Date()`"
 output: ioslides_presentation
